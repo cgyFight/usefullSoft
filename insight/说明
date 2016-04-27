@@ -1,0 +1,10 @@
+一个gdb的可视化调试工具
+
+下载路径  ftp://sourceware.org/pub/insight/releases/
+
+安装方法  参考链接http://www.cnblogs.com/aicro/archive/2013/02/26/2933808.html
+$tar jxvf xxx
+$./configur --prefix=xxx
+$make && make install
+
+注意： 如果make 错误可能是出于编译参数-Werror的原因，去相应的目录下修改其makefile将这个选项去掉即可
